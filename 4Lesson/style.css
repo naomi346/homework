@@ -1,0 +1,46 @@
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+	display: block;
+	border: 1px solid;
+	border-radius: 6px;
+	margin: 20px;
+	max-width: 360px;
+}
+
+fieldset {
+	border: none;
+}
+
+label {
+	display: block;
+}
+
+.qwe {
+	display: inline;
+	width: auto;
+	cursor: pointer;
+}
+
+input {
+	display: block;
+	width: 260px;
+}
+
+button {
+	margin: 20px;
+	margin-top: 4px;
+	padding: 4px 6px;
+	border: 0px;
+	border-radius: 6px;
+	background-color: rgb(197, 197, 197);
+	cursor: pointer;
+}
+
+textarea {
+	resize: vertical;
+	width: 262px;
+	max-height: 160px;
+}
