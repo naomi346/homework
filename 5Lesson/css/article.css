@@ -1,0 +1,77 @@
+html {
+	font-family: Ubuntu, sans-serif;
+	font-weight: 400;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0px;
+}
+.article {
+	padding-top: 40px;
+	padding-bottom: 120px;
+}
+
+.container {
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.title-article {
+	font-size: 48px;
+	font-family: Oswald, sans-serif;
+	font-weight: 600px;
+	line-height: 115%;
+	text-transform: uppercase;
+	color: #2c322f;
+	max-width: 596px;
+	margin-bottom: 40px;
+}
+
+.text {
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #2c322f;
+}
+
+.text-mb {
+	margin-bottom: 80px;
+}
+.images {
+	width: 100%;
+}
+
+.title-article-h2 {
+	font-family: Oswald, sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 115%;
+	text-transform: uppercase;
+	color: #2c322f;
+}
+.article-list {
+	margin-top: 0;
+	padding-left: 14px;
+}
+
+.article-item {
+	margin-bottom: 12px;
+}
+.text-mt {
+	margin-top: 80px;
+}
+.article-video {
+	width: 100%;
+	margin-bottom: 40px;
+}
