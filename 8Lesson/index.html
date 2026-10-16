@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<form class="container">
+			<fieldset class="registration-form">
+				<h2>Регистрация</h2>
+				<label>
+					Ваше имя
+					<input type="text" placeholder="Имя" inputmode="text" required />
+				</label>
+				<label>
+					Ваш возраст
+					<input
+						type="number"
+						placeholder="Возраст"
+						inputmode="numeric"
+						required
+					/>
+				</label>
+				<label>
+					Ваш номер телефона
+					<input
+						type="tel"
+						placeholder="Номер телефон"
+						inputmode="tel"
+						required
+					/>
+				</label>
+				<label>
+					Ваша почта
+					<input type="email" placeholder="Почта" inputmode="email" required />
+				</label>
+				Придумайте пароль
+				<label for="password">
+					<input type="password" name="password" inputmode="text" />
+				</label>
+				Повторите пароль
+				<label for="">
+					<input type="password" name="two-password" inputmode="text" />
+				</label>
+				<label class="checkbox-group">
+					<input type="checkbox" class="custon-checkbox" />
+					Я принимаю правила
+				</label>
+
+				<button class="btn">Отправить</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
