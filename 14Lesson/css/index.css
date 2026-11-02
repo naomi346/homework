@@ -1,0 +1,423 @@
+.hero {
+	position: relative;
+	padding-top: 80px;
+}
+.hero::before {
+	bottom: 106px;
+	width: 100%;
+}
+.hero__container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 28px;
+}
+.hero__info {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #535755;
+	max-width: 492px;
+}
+.hero__title--large {
+	margin-bottom: 40px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-size: 62px;
+	line-height: 115%;
+	text-transform: uppercase;
+	color: #2c332f;
+}
+.hero__strong {
+	color: #3596ed;
+}
+
+.hero__text {
+	max-width: 440px;
+	margin-bottom: 140px;
+}
+
+.hero__btn {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	padding: 19px 32px;
+	width: 270px;
+	height: 57px;
+	background-color: #3596ed;
+	-webkit-transition:
+		color 0.3s ease-in-out,
+		-webkit-transform 0.3s ease-in-out;
+	transition:
+		color 0.3s ease-in-out,
+		-webkit-transform 0.3s ease-in-out;
+	transition:
+		transform 0.3s ease-in-out,
+		color 0.3s ease-in-out;
+	transition:
+		transform 0.3s ease-in-out,
+		color 0.3s ease-in-out,
+		-webkit-transform 0.3s ease-in-out;
+}
+.hero__btn:hover {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	opacity: 0.9;
+}
+.hero__img {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.hero__choose {
+	margin: 0;
+	max-width: 161px;
+	top: 40px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	border: 1px solid #535755;
+	background: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	padding: 22px;
+	position: absolute;
+	z-index: 1;
+}
+.hero__img--woman {
+	display: inline-block;
+	-webkit-transition:
+		color 0.3s ease-in-out,
+		-webkit-transform 0.3s ease-in-out;
+	transition:
+		color 0.3s ease-in-out,
+		-webkit-transform 0.3s ease-in-out;
+	transition:
+		transform 0.3s ease-in-out,
+		color 0.3s ease-in-out;
+	transition:
+		transform 0.3s ease-in-out,
+		color 0.3s ease-in-out,
+		-webkit-transform 0.3s ease-in-out;
+}
+.hero__img--woman:hover {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.hero__img--man {
+	display: inline-block;
+	-webkit-transition:
+		color 0.3s ease-in-out,
+		-webkit-transform 0.3s ease-in-out;
+	transition:
+		color 0.3s ease-in-out,
+		-webkit-transform 0.3s ease-in-out;
+	transition:
+		transform 0.3s ease-in-out,
+		color 0.3s ease-in-out;
+	transition:
+		transform 0.3s ease-in-out,
+		color 0.3s ease-in-out,
+		-webkit-transform 0.3s ease-in-out;
+}
+.hero__img--man:hover {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.news__title--large {
+	margin-bottom: 40px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 115%;
+	text-transform: uppercase;
+	color: #2c332f;
+}
+.news__container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 28px;
+}
+
+.news__article {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 25%;
+	flex: 1 1 25%;
+	background-color: #fff;
+	border: 1px solid #d3cbd9;
+	max-width: 284px;
+	overflow: hidden;
+}
+.news__article footer {
+	padding: 0 20px 20px;
+	margin-top: auto;
+}
+
+.news__img {
+	display: block;
+}
+.news__info {
+	padding: 20px 20px 0;
+	margin-bottom: 12px;
+}
+.news__date {
+	display: inline-block;
+	margin-bottom: 8px;
+}
+.news__card-text {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #2c332f;
+	margin: 0;
+}
+
+.news__link {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 8px;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #3596ed;
+	text-decoration: none;
+}
+
+.news__link::after {
+	content: "";
+	display: inline-block;
+	width: 22px;
+	height: 9px;
+	background-image: url(../images/arrow-right.svg);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	transition:
+		transform 0.3s,
+		-webkit-transform 0.3s;
+}
+.news__link:hover::after {
+	-webkit-transform: translateX(10px);
+	-ms-transform: translateX(10px);
+	transform: translateX(10px);
+}
+.faq {
+	position: relative;
+}
+
+.faq::before {
+	top: 215px;
+}
+.faq__title--large {
+	margin-bottom: 40px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 115%;
+	text-transform: uppercase;
+	color: #2c332f;
+}
+
+.faq__container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 28px;
+}
+.faq__content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.faq__datails {
+	margin-bottom: 20px;
+	border-block: 1px solid #d3cbd9;
+}
+.faq__datail:last-child {
+	margin-bottom: 0px;
+}
+details[open] summary::after {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.faq__text {
+	padding: 0px 20px 20px 20px;
+}
+
+.faq_summary--small {
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	gap: 10px;
+	padding: 20px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.faq_summary--small::after {
+	display: inline-block;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	content: "";
+	width: 17px;
+	height: 22px;
+	background: url(../images/arrow-img.svg) no-repeat center / cover;
+}
+summary::-webkit-details-marker {
+	display: none;
+}
+
+@media (max-width: 1440px) {
+	.hero__img--woman,
+	.hero__img--man {
+		height: auto;
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.hero__container {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+
+	.hero::before {
+		display: none;
+	}
+	.hero__title--large {
+		font-size: 52px;
+		margin-bottom: 30px;
+	}
+	.hero__info {
+		text-align: center;
+		max-width: 470px;
+		margin: 0 auto;
+	}
+	.hero__info .hero__text {
+		max-width: inherit;
+		margin-bottom: 30px;
+	}
+	.news__container {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.news__article-footer {
+		-ms-flex-preferred-size: 50%;
+		flex-basis: 50%;
+		max-width: 350px;
+	}
+	.news__img {
+		width: 100%;
+		height: 250px;
+	}
+	.faq::before {
+		display: none;
+	}
+	.faq__container {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.faq__title--large,
+	.hero__title--large {
+		font-size: 40px;
+		text-align: center;
+		max-width: inherit;
+		margin-bottom: 30px;
+	}
+	.hero__title--large {
+		font-size: 46px;
+	}
+	.hero__info {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 576px) {
+	.section {
+		margin-bottom: 80px;
+	}
+	.hero {
+		padding-top: 60px;
+	}
+	.hero__choose {
+		max-width: 100px;
+		padding: 14px;
+		font-size: 14px;
+	}
+	.hero__title--large {
+		font-size: 42px;
+	}
+	.hero__info {
+		max-width: 370px;
+	}
+	.news__article {
+		-ms-flex-preferred-size: 50%;
+		flex-basis: 50%;
+		max-width: 400px;
+	}
+	.news__img {
+		width: 100%;
+		height: 270px;
+	}
+	.news__title--large,
+	.faq__title--large {
+		font-size: 34px;
+	}
+}
