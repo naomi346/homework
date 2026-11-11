@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="page" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<script src="./js/index.js" type="module"></script>
+		<title>Document</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<a class="header__logo-img" href="index.html">
+						<img
+							width="198"
+							height="37.5"
+							class="header__logo"
+							src="./images/Logo.png"
+							alt="Логотип Pulse"
+						/>
+					</a>
+				</div>
+				<nav class="header__menu">
+					<ul class="header__menu-list">
+						<li class="header__menu-item">
+							<a class="header__menu-link" href="">HOME</a>
+						</li>
+						<li class="header__menu-link">
+							<a class="header__menu-link" href="">CATALOGS</a>
+						</li>
+						<li class="header__menu-link">
+							<a class="header__menu-link" href="">BLOG</a>
+						</li>
+						<li class="header__menu-link">
+							<a class="header__menu-link" href="">COLLECTIONS</a>
+						</li>
+						<li class="header__menu-link">
+							<a class="header__menu-link" href="">CONTACT US</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__actions">
+					<button class="header__actions-cart">
+						<svg width="34" height="34">
+							<use
+								class="header__actions-icon"
+								href="./icons/sprite.svg#cart-menu"
+							></use>
+						</svg>
+					</button>
+					<button class="header__cart">
+						<svg width="28" height="28">
+							<use
+								class="header__actions-icon"
+								href="./icons/sprite.svg#search-menu"
+							></use>
+						</svg>
+					</button>
+					<button
+						class="header__burger burger"
+						aria-label="Открыть Меню"
+						aria-expanded="false"
+						aria-controls="header__menu"
+					>
+						<svg width="25" height="22">
+							<use
+								class="burger__icon-burger"
+								href="./icons/sprite.svg#burger-menu"
+							></use>
+							<use
+								class="burger__icon-cross"
+								href="./icons/sprite.svg#cross_menu"
+							></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+		<footer class="footer"></footer>
+	</body>
+</html>

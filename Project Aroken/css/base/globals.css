@@ -1,0 +1,12 @@
+.page__body {
+	min-width: 375px;
+	background-color: var(--bg-color);
+}
+.container {
+	max-width: var(--container-width);
+	margin-inline: auto;
+	width: 100%;
+}
+.main {
+	padding-top: 136px;
+}
