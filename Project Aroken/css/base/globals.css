@@ -1,0 +1,14 @@
+.page__body {
+	height: 200vh;
+	min-width: 375px;
+	background-color: var(--bg-color);
+	z-index: var(--layer-negative);
+}
+.container {
+	max-width: var(--container-width);
+	margin-inline: auto;
+	width: 100%;
+}
+.main {
+	padding-top: 136px;
+}

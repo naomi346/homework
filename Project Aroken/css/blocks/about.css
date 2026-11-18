@@ -1,0 +1,110 @@
+.about {
+	padding-top: 146px;
+	background-color: var(--bg-color);
+}
+.about__container {
+	max-width: var(--container-width);
+	margin-inline: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about__title {
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 120px;
+	color: #fff;
+}
+.about__title-strong {
+	color: #f47521;
+}
+.about__content {
+	display: flex;
+	flex-direction: column;
+	max-width: 550px;
+	align-items: flex-start;
+	gap: 40px;
+}
+.about__title--small {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 30px;
+	color: #fff;
+}
+.about__text {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 169%;
+	color: #979797;
+}
+
+.about__link {
+	border-left: 4px solid #fff;
+	padding: 23px 61px;
+	width: 213px;
+	height: 76px;
+	background-color: #f47521;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 20px;
+	color: #fff;
+}
+.about__product {
+	position: relative;
+}
+.about__stats {
+	display: flex;
+	flex-direction: column;
+	z-index: var(--layer-1);
+}
+.about__stat--white {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 255px;
+	height: 142px;
+	background: #fff;
+}
+.about__stat--orange {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 255px;
+	height: 142px;
+	background: #f47521;
+}
+.about__stat-value {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 30px;
+	color: #141414;
+}
+.about__stat-ptotein {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 169%;
+	color: #979797;
+}
+.about__stat-bcaa {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 169%;
+	color: #141414;
+}
+.about__img {
+	max-width: 476px;
+	max-height: 679px;
+	position: absolute;
+	left: 200px;
+	top: -200px;
+	z-index: var(--layer-2);
+}

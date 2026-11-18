@@ -1,0 +1,17 @@
+:root {
+	/* font-family */
+	--font-family: "Oswald", sans-serif;
+	--second-family: "Archivo", sans-serif;
+	/* colors */
+	--bg-color: #141414;
+	/* container */
+	--header-width: 1702px;
+	--hero-width: 1702px;
+	--container-width: 1920px;
+	/* layers */
+	--layer-negative: -1;
+	--layer-1: 1;
+	--layer-2: 2;
+	--layer-3: 3;
+	--layer-4: 4;
+}
